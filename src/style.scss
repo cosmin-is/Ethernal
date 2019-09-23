@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.intro{
+  img{
+    width: 300px;
+  }
+}
+
+.afara{
+  width: 100vw;
+  height: 100vh;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+.page{
+  height: 100vh;
+  width: 100vw;
+}
+
+.scroll{
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.one{
+  background-color: red;
+}
+
+.two{
+  background-color: orange;
+}
+
+.three{
+  background-color: green;
+}
